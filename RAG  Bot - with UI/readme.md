@@ -6,6 +6,7 @@
 ```bash
 ollama pull llama3:8b
 ```
+### 5. then execute "app.py"
 ___
 # RAG Bot with Web UI
 
