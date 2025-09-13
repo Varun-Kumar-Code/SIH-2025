@@ -3,8 +3,9 @@
 ### 2. Download Llama3:8b model
 ### 3. either through Ollama software, vs code's terminal, or even via Command prompt
 ### 4. You can copy - paste this command in any terminal
+```bash
 ollama pull llama3:8b
-
+```
 ___
 # RAG Bot with Web UI
 
