@@ -10,7 +10,6 @@ ollama pull llama3:8b
 ___
 # RAG Bot with Web UI
 
-
 This project is a Retrieval-Augmented Generation (RAG) chatbot featuring a comprehensive web interface. It leverages a local knowledge base and real-time web-scraping capabilities to answer user queries. The backend is built with Flask, and the generation is powered by Llama 3 running via Ollama.
 
 ## Key Features
