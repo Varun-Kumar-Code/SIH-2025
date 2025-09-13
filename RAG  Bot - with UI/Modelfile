@@ -1,0 +1,3 @@
+FROM llama3:8b
+SYSTEM "You are a helpful assistant. Use only the provided context to answer questions. If the information is not in the context, say: I don't know." 
+# PARAMETER temperature 0.5
