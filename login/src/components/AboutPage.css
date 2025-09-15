@@ -1,0 +1,49 @@
+.about-container {
+  height: 100vh;
+  width: 100%;
+  background: url("../assets/about-bg.png") no-repeat center center/cover;
+  display: flex;
+  justify-content: flex-start; /* Keep it left but not too far */
+  align-items: center;
+  padding-left: 12%; /* Move text more towards center */
+  text-align: left;
+}
+
+.about-content {
+  max-width: 600px;
+  color: #fff;
+}
+
+.about-content h1 {
+  font-size: 3.2rem;  /* Enlarged heading */
+  font-weight: 800;
+  margin-bottom: 20px;
+  line-height: 1.2;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6); /* Blend with bg */
+}
+
+.about-content p {
+  font-size: 1.3rem;  /* Larger paragraph */
+  margin-bottom: 30px;
+  line-height: 1.6;
+  color: #f1f1f1;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6); /* Subtle glow for readability */
+}
+
+.about-button {
+  background: #fff;
+  color: #000;
+  border: none;
+  padding: 14px 36px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+}
+
+.about-button:hover {
+  background: #333;
+  color: #fff;
+  transform: scale(1.05);
+}
