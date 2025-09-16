@@ -10,19 +10,32 @@ function SignUpPage() {
           <input type="text" placeholder="Full Name" className="signup-input" />
           <input type="tel" placeholder="Phone number" className="signup-input" />
           <input type="email" placeholder="Email" className="signup-input" />
-          
+
           <div className="password-row">
             <input type="password" placeholder="Password" className="signup-input" />
             <span className="eye-icon">👁</span>
           </div>
-          
+
           <div className="password-row">
             <input type="password" placeholder="Confirm Password" className="signup-input" />
             <span className="eye-icon">👁</span>
           </div>
 
           <button type="submit" className="signup-button">SIGN UP</button>
+
+          {/* Social icons */}
+          <div className="social-icons">
+            <button className="icon google" title="Google"></button>
+            <button className="icon apple" title="Apple"></button>
+            <button className="icon facebook" title="Facebook"></button>
+          </div>
+
+          {/* Already account link */}
+          <button type="button" className="login-link">
+            Already have an account?
+          </button>
         </form>
+
       </div>
     </div>
   );

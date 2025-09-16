@@ -95,7 +95,7 @@ form {
   display: block;
   margin-bottom: 1.05rem;
   font-size: 0.9rem;
-  color: #007bff;
+  color: #000000;
   text-decoration: none;
   text-align: right;
 }
@@ -177,7 +177,7 @@ form {
 }
 
 .signup-link {
-  color: #007bff;
+  color: #614833;
   text-decoration: none;
   margin-left: 4px;
   font-weight: 600;
@@ -185,4 +185,13 @@ form {
 
 .signup-link:hover {
   text-decoration: underline;
+}
+
+.divider {
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #444;   /* darker so it shows up */
+  opacity: 0.9; /* stronger contrast */
 }

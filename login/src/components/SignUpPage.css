@@ -178,3 +178,72 @@
   background: linear-gradient(90deg, #523522 70%, #cba26a 100%);
   box-shadow: 0 8px 24px rgba(111, 78, 55, 0.18);
 }
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-bottom: 1.1rem;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #eee;
+  background-color: white;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.04);
+  cursor: pointer;
+  transition: box-shadow 0.22s, background-color 0.22s;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px 20px;
+}
+
+.icon.google {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg');
+  background-size: 20px 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.icon.facebook {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/44/Facebook_Logo.png');
+  background-size: 20px 20px;
+}
+
+.icon.apple {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg');
+  background-size: 21px 21px;
+}
+
+.icon:hover {
+  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.10);
+  background-color: #f0f0f0;
+}
+/* Already have account link */
+.login-link {
+  display: block;        /* make it a block element */
+  margin: 0.8rem auto 0; /* top margin + auto centers horizontally */
+  background: none;
+  border: none;
+  color: #411f07;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+
+.login-link:hover {
+  color: #523522;
+}
+
+/* Adjust spacing for icons */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1.2rem 0 0.6rem 0;
+}
