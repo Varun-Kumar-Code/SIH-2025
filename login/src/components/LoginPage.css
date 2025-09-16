@@ -26,16 +26,33 @@
 .login-glass {
   position: relative;
   z-index: 1;
-  background: rgba(255, 255, 255, 0.22);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  border-radius: 24px;
+  /* Transparent frosted glass effect */
+  background: rgba(255, 255, 255, 0.12);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.10),
+    rgba(255, 255, 255, 0.05)
+  );
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-radius: 28px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   padding: 2.5rem 2rem 1.5rem 2rem;
   width: 340px;
   max-width: 90%;
   text-align: center;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-glass:hover {
+  background: rgba(255, 255, 255, 0.18);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0.08)
+  );
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 0.2);
 }
 
 .login-glass h2 {
@@ -103,7 +120,7 @@ form {
 .login-button {
   width: 100%;
   padding: 0.9rem;
-  background: linear-gradient(90deg, #6f4e37 60%, #d9ad7c 100%);
+  background: linear-gradient(90deg, #41376f 60%, #7caad9 100%);
   color: white;
   border: none;
   font-weight: 700;
@@ -112,13 +129,13 @@ form {
   cursor: pointer;
   margin-bottom: 1.2rem;
   letter-spacing: 1px;
-  box-shadow: 0 6px 16px rgba(111, 78, 55, 0.12);
+  box-shadow: 0 6px 16px rgba(59, 55, 111, 0.12);
   transition: background 0.3s ease, box-shadow 0.2s;
 }
 
 .login-button:hover {
-  background: linear-gradient(90deg, #523522 70%, #cba26a 100%);
-  box-shadow: 0 8px 24px rgba(111, 78, 55, 0.18);
+  background: linear-gradient(90deg, #342252 70%, #6a81cb 100%);
+  box-shadow: 0 8px 24px rgba(87, 55, 111, 0.18);
 }
 
 .divider {
@@ -177,7 +194,7 @@ form {
 }
 
 .signup-link {
-  color: #614833;
+  color: #333561;
   text-decoration: none;
   margin-left: 4px;
   font-weight: 600;

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";  // ✅ import Link
 import "./SignUpPage.css";
 
 function SignUpPage() {
@@ -25,17 +26,19 @@ function SignUpPage() {
 
           {/* Social icons */}
           <div className="social-icons">
-            <button className="icon google" title="Google"></button>
-            <button className="icon apple" title="Apple"></button>
-            <button className="icon facebook" title="Facebook"></button>
+            <button type="button" className="icon google" title="Google"></button>
+            <button type="button" className="icon apple" title="Apple"></button>
+            <button type="button" className="icon facebook" title="Facebook"></button>
           </div>
 
-          {/* Already account link */}
-          <button type="button" className="login-link">
-            Already have an account?
-          </button>
+          {/* Already have account link */}
+          <div className="signup-row">
+            Already have an account?{" "}
+            <Link to="/login" className="switch-link">
+              LOGIN
+            </Link>
+          </div>
         </form>
-
       </div>
     </div>
   );
