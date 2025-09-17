@@ -6,10 +6,10 @@ cut out node modules temporarily from the directory and commit the entire direct
 jharkhand monument guide, Jhar Setu need node modules to be installed
 
 ## Jhar Setu: ( Multipurpose chatbot )
--Location based Suggestion
--Itinerary Planning for tourism
--Souvenir Recommendation
--Multilingual Assistance 
+- Location based Suggestion
+- Itinerary Planning for tourism
+- Souvenir Recommendation
+- Multilingual Assistance 
 
 
 Need to fine tune the overall knowledge base. Voice Recognition errors , Multilingual inputs need to be corrected for easier user experience. 
