@@ -1,0 +1,7 @@
+{
+  "name": "Jharkhand Tourism AI Assistant",
+  "description": "An AI-powered digital tourism platform for Jharkhand, offering personalized itinerary planning, multilingual chatbot assistance, souvenir recommendations, and location-based suggestions to enhance the tourist experience.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
