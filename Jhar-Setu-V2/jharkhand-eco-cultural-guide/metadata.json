@@ -1,0 +1,7 @@
+{
+  "name": "Jharkhand Eco-Cultural Guide",
+  "description": "An AI assistant to help you plan your eco and cultural tourism trip to Jharkhand, with multilingual support, voice interaction, and artisan recommendations.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
